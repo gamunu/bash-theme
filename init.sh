@@ -12,6 +12,9 @@ type_exists() {
   [ "$(type -P "$1")" ]
 }
 
+# add gpg tty
+export GPG_TTY=$(tty)
+
 # Load colors first so they can be use in base theme
 source "${full_path}/themes/colours.theme.sh"
 source "${full_path}/themes/base.theme.sh"
