@@ -1,0 +1,2 @@
+# bash-theme
+Simple customization
