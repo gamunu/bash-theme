@@ -4,7 +4,7 @@ Simple bash customization
 ## clone
 
 ```
-git clone git@github.com:gamunu/bash-theme.git ~/.bash-theme
+git clone https://github.com/gamunu/bash-theme.git ~/.bash-theme
 ```
 
 ## include init.sh in bashrc
